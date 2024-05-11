@@ -3,7 +3,7 @@ import { getCommentsB } from '../../shared/hooks/getComments';
 export const CommentsTableO = () => {
   const { comments, loading } = getCommentsB();
   return (
-    <Table striped bordered hover>
+    <Table striped bordered hover className="mx-auto">
       <thead>
         <tr>
           <th>#</th>

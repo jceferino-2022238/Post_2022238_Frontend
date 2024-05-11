@@ -6,11 +6,13 @@ import { PostsB } from '../../components/posts/Posts';
 import { CommentsTableO } from '../../components/commentsTable/CommentsTable';
 export const DashboardPage = () =>{
     return(
-        <div>
+        <div className="dashboard-container">
             <NavbarC/>
             <br/>
             <br/>
+            <div>
             <CarouselB/>
+            </div>
             <br/>
             <br/>
             <PostsB/>
