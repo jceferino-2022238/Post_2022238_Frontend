@@ -14,3 +14,24 @@ export const getPosts = async () =>{
         };
     }
 }
+export const getComments = async () =>{
+    try{
+        return await api.get("/comments")
+    }catch(e){
+        return{
+            e:true,
+            message: e.message
+        }
+    }
+}
+
+export const addComment = async (postId, title, content) =>{
+    try {
+        return await api.post(`/comments/${postId}`, {title, content})
+    } catch (e) {
+        return{
+            e: true,
+            message: e.message
+        }
+    }
+}
