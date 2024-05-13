@@ -7,7 +7,7 @@ export const CarouselB = () => {
         <Carousel.Item>
           <img
             className='d-block w-100'
-            src='src/assets/tecnologia.png'
+            src='https://www.tooltyp.com/wp-content/uploads/2019/09/1900x920-bootstrap-4-como-funciona-la-ultima-version.jpg'
             alt='First slide'
           />
           <Carousel.Caption>
@@ -18,7 +18,7 @@ export const CarouselB = () => {
         <Carousel.Item>
           <img
             className='d-block w-100'
-            src='src/assets/practicaS.png'
+            src='https://www.freecodecamp.org/news/content/images/2022/12/main-image.png'
             alt='Second slide'
           />
           <Carousel.Caption>
@@ -29,7 +29,7 @@ export const CarouselB = () => {
         <Carousel.Item>
           <img
             className='d-block w-100'
-            src='src/assets/taller.png'
+            src='https://res.cloudinary.com/practicaldev/image/fetch/s--Qhu3PUis--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y63ie8bmktwik5w3mhlg.png'
             alt='Third slide'
           />
           <Carousel.Caption>

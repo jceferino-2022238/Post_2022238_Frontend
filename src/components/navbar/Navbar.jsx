@@ -1,8 +1,9 @@
 import { Container, Navbar } from 'react-bootstrap';
-
+import './navbar.css'
 export const NavbarC = () => {
   return (
-    <Navbar className="bg-body-tertiary" expand="lg">
+    <div className='navbar-container'>
+      <Navbar className="bg-body-tertiary" expand="lg">
       <Container fluid>
         <Navbar.Brand>Blog del Programador, 2022238</Navbar.Brand>
         <Navbar.Toggle />
@@ -13,5 +14,6 @@ export const NavbarC = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
   );
 };

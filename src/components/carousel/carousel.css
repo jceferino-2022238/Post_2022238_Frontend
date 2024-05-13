@@ -1,9 +1,17 @@
 .carousel-container {
-    width: 80%; 
+    width: 100vw; 
     margin: 0 auto; 
   }
   
   .carousel-item img {
     height: 400px; 
     object-fit: cover; 
+    width: 100%; 
   }
+
+.carousel-item > img { 
+  width: 100%; 
+}
+.carousel-control-prev,.carousel-control-next {
+  cursor:pointer;
+}

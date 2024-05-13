@@ -1,0 +1,17 @@
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.btn-add{
+    margin-top: 20px;
+}
+.card-text{
+    text-align: justify;
+}
+.add-form-comment{
+    margin-left: 50px;
+}
+.post-img{
+    height: 200px;
+}
