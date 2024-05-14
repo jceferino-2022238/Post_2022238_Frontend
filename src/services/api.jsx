@@ -1,6 +1,6 @@
 import axios from "axios";
 const api = axios.create({
-    baseURL: "http://192.168.31.116:8000/blog_2022238/v1",
+    baseURL: "http://192.168.1.2:8000/blog_2022238/v1",
     timeout: 5000
 })
 
@@ -24,7 +24,16 @@ export const getComments = async () =>{
         }
     }
 }
-
+export const getCommentsFromPost = async (postId) =>{
+    try {
+        return await api.get(`/comments/${postId}`)
+    } catch (e) {
+        return{
+            e:true,
+            message: e.message
+        }
+    }
+}
 export const addComment = async (postId, title, content) =>{
     try {
         return await api.post(`/comments/${postId}`, {title, content})

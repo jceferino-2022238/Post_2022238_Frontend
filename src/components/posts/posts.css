@@ -5,6 +5,7 @@
 }
 .btn-add{
     margin-top: 20px;
+    width: 150px;
 }
 .card-text{
     text-align: justify;
@@ -14,4 +15,11 @@
 }
 .post-img{
     height: 200px;
+}
+.btn-comment{
+    margin-top: 20px;
+    width: 150px;
+}
+.btn-showMore{
+    width: 150px;
 }
